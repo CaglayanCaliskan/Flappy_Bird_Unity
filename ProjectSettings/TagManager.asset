@@ -3,10 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Scorer
-  - dead
-  - pipe
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -55,7 +52,4 @@ TagManager:
     locked: 0
   - name: Bird
     uniqueID: 2764687703
-    locked: 0
-  - name: text
-    uniqueID: 718499027
     locked: 0
