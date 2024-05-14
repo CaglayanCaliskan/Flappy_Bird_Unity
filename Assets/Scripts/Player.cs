@@ -8,8 +8,8 @@ public class Player : MonoBehaviour
     public Sprite[] sprites;
     private int spriteIndex;
     public Vector3 direction;
-    public float gravity = -9.8f;
-    public float strength = 5f;
+    public float gravity = -15f;
+    public float strength = 6f;
 
     private void Awake()
     {
@@ -19,6 +19,14 @@ public class Player : MonoBehaviour
     private void Start()
     {
         InvokeRepeating(nameof(AnimateSprite), 0.15f, 0.15f);
+    }
+
+    private void OnEnable()
+    {
+        Vector3 position = transform.position;
+        position.y = 0f;
+        transform.position = position;
+        direction = Vector3.zero;
     }
 
     private void Update()

@@ -41,13 +41,11 @@ public class GameManager : MonoBehaviour
     public void IncreaseScore()
     {
         score++;
-        Debug.Log("" + score);
         scoreText.text = score.ToString();
     }
 
     public void GameOver()
     {
-        Debug.Log("Game OVER");
         gameOver.SetActive(true);
         playButton.SetActive(true);
         Pause();
