@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/CaglayanCaliskan/FlappyBird.git
+    git clone https://github.com/CaglayanCaliskan/Flappy_Bird_Unity.git
     ```
 2. Open the project in Unity.
 3. Build and run the project for your desired platform.
